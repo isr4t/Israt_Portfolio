@@ -24,7 +24,7 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center md:justify-start">
             {/* Resume Button */}
             <a
-              href="https://docs.google.com/document/d/19MkFtzJw9-FGl7VO-8ODgInDcZJYr78IparB4se6TC4/edit?usp=sharing"
+              href="https://drive.google.com/drive/u/0/folders/1KXVWUKH6wvBH_gRyJa6kYhtJboAWeeZ6"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-all"
