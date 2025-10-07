@@ -9,6 +9,7 @@ import Project1 from "../assets/dashboard.png";
 import Project2 from "../assets/frwshify.png";
 import Project3 from "../assets/Movie.png";
 import Project4 from "../assets/to-do.png";
+import Project5 from "../assets/project5.png";
 
 
 const Projects = () => {
@@ -44,6 +45,14 @@ const Projects = () => {
       description:
        "A React-based To-Do app to manage tasks efficiently with add, edit, and delete features in a clean, interactive interface.",
       link: "github.com/isr4t/React-to-do-app.git",
+    },
+    {
+      id: 5,
+      title: "Currency Converter App ",
+      image: Project5,
+      description:
+       "Currency converter app using javascript and api ",
+      link: "https://github.com/isr4t/Currency-converter-js.git",
     },
   ];
 
