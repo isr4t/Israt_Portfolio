@@ -8,7 +8,7 @@ const ScrollToTop = () => {
     const handleScroll = () => {
       setVisible(window.scrollY > 300);
       const targetOffset = 24 + window.scrollY * 0.05;
-      setBottomOffset(prev => prev + (targetOffset - prev) * 0.1);
+      setBottomOffset((prev) => prev + (targetOffset - prev) * 0.1);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -41,7 +41,7 @@ const ScrollToTop = () => {
         >
           <path
             fillRule="evenodd"
-            d="M3.293 9.707a1 1 0 011.414 0L10 15.586l5.293-5.879a1 1 0 111.414 1.414l-6 6.667a1 1 0 01-1.414 0l-6-6.667a1 1 0 010-1.414z"
+            d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
             clipRule="evenodd"
           />
         </svg>
