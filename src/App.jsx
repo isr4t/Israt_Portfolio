@@ -6,12 +6,14 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import Education from "./components/Education";
 
 function App() {
   return (
     <div className="bg-neutral-900 text-white">
       <Navbar />
       <Hero />
+      <Education/>
       <Projects />
       <About />
       <Contact />
